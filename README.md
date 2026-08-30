@@ -128,21 +128,21 @@
 <table>
   <tr>
     <td><b>⚡ PROBLEM SOLVING</b></td>
-    <td><code>[████████████████████] 99/99</code></td>
+    <td><code>[██████████████████░░] 90/100</code></td>
     <td><b>🔥 AGILITY & LEARNING</b></td>
-    <td><code>[██████████████████░░] 90/99</code></td>
+    <td><code>[████████████████████] MAX</code></td>
   </tr>
   <tr>
-    <td><b>🌐 WEB ENGINEERING</b></td>
-    <td><code>[██████████████████░░] 92/99</code></td>
+    <td><b>🐧 LINUX & HOMELAB</b></td>
+    <td><code>[████████████████████] 99/100</code></td>
     <td><b>🐍 BUG SLITHERING</b></td>
     <td><code>[████████████████████] MAX</code></td>
   </tr>
   <tr>
     <td><b>☕ CAFFEINE CONSUMPTION</b></td>
-    <td><code>[███████████████████░] 95/99</code></td>
+    <td><code>[░░░░░░░░░░░░░░░░░░░░] 0/100</code></td>
     <td><b>🏫 SMKN 2 PRIDE</b></td>
-    <td><code>[████████████████████] ∞/99</code></td>
+    <td><code>[████████████████████] ∞/100</code></td>
   </tr>
 </table>
 
@@ -157,16 +157,11 @@
 
 <table>
   <tr>
-    <td align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=KevinTadashiii&show_icons=true&theme=matrix&hide_border=false&border_color=00ff66&bg_color=060d09&title_color=00ff66&icon_color=00ff66&text_color=80df9e" alt="Kevin's GitHub Stats" />
+    <td align="center" valign="middle" width="55%">
+      <img src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-metrics.svg" alt="Kevin's GitHub Metrics" width="100%" />
     </td>
-    <td align="center" valign="middle">
-      <img src="https://streak-stats.demolab.com?user=KevinTadashiii&theme=matrix&hide_border=false&border=00ff66&background=060d09&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&currStreakNum=00ff66&sideNums=00ff66&sideLabels=80df9e&dates=80df9e" alt="GitHub Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KevinTadashiii&layout=compact&theme=matrix&hide_border=false&border_color=00ff66&bg_color=060d09&title_color=00ff66&text_color=80df9e" alt="Top Languages" />
+    <td align="center" valign="middle" width="45%">
+      <img src="https://streak-stats.demolab.com?user=KevinTadashiii&theme=matrix&hide_border=false&border=00ff66&background=060d09&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&currStreakNum=00ff66&sideNums=00ff66&sideLabels=80df9e&dates=80df9e" alt="GitHub Streak" width="100%" />
     </td>
   </tr>
 </table>
