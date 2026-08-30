@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Arcade Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050d09,50:0a1f14,100:030805&height=220&section=header&text=KEVIN%20TADASHIII&fontSize=48&fontColor=00ff66&fontAlignY=42&desc=%F0%9F%90%8D%20ARCADE%20SNAKE%20EDITION%20%E2%80%A2%20LVL%2017%20DEV%20%E2%80%A2%20SMKN%202%20BDG&descAlignY=66&descAlign=50&descSize=16&stroke=00ff66&strokeWidth=2" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050d09,50:0a1f14,100:030805&height=220&section=header&text=KevinTadashiii&fontSize=48&fontColor=00ff66&fontAlignY=42&desc=%F0%9F%90%8D%20ARCADE%20SNAKE%20EDITION%20%E2%80%A2%20LVL%2017%20DEV%20%E2%80%A2%20SMKN%202%20BDG&descAlignY=66&descAlign=50&descSize=16&stroke=00ff66&strokeWidth=2" width="100%" alt="Header Banner" />
 
 <!-- Pixel Font Animated Typing Subheader -->
 <a href="https://github.com/KevinTadashiii">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=45&lines=%3E+PLAYER_1+CONNECTED%3A+KEVIN+(ABAY);%3E+LEVEL%3A+17+Y%2FO+%7C+SMKN+2+BANDUNG;%3E+EXP%3A+CODING+SINCE+GRADE+6+ELEMENTARY;%3E+MISSION%3A+SLITHER+THROUGH+BUGS+%26+DEV+APPS;%3E+INSERT+COIN+TO+COMMENCE+GAMEPLAY+🕹️" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=45&lines=%3E+PLAYER_1+CONNECTED%3A+KevinTadashiii;%3E+LEVEL%3A+17+Y%2FO+%7C+SMKN+2+BANDUNG;%3E+EXP%3A+CODING+SINCE+GRADE+6+ELEMENTARY;%3E+MISSION%3A+SLITHER+THROUGH+BUGS+%26+DEV+APPS;%3E+INSERT+COIN+TO+COMMENCE+GAMEPLAY+%F0%9F%95%B9%EF%B8%8F" alt="Typing Banner" />
 </a>
 
 <br/>
@@ -13,12 +13,12 @@
 <!-- Arcade Top HUD / Status Bar -->
 <table>
   <tr>
-    <td align="center"><b>🎮 PLAYER</b><br/><code>KEVIN / ABAY</code></td>
+    <td align="center"><b>🎮 PLAYER</b><br/><code>KevinTadashiii</code></td>
     <td align="center"><b>❤️ HP / LIVES</b><br/><code>♥♥♥♥♥ [MAX]</code></td>
     <td align="center"><b>⚡ LVL / AGE</b><br/><code>LEVEL 17</code></td>
     <td align="center"><b>🏫 GUILD</b><br/><code>SMKN 2 BDG</code></td>
-    <td align="center"><b>⏳ EXP ORIGIN</b><br/><code>6TH GRADE SD</code></td>
-    <td align="center"><b>🪙 COINS</b><br/><code>999999</code></td>
+    <td align="center"><b>⏳ EXP ORIGIN</b><br/><code>6TH GRADE</code></td>
+    <td align="center"><b>🪙 COINS</b><br/><code>9696969</code></td>
   </tr>
 </table>
 
@@ -35,7 +35,7 @@
     </td>
     <td>
       <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&pause=5000&color=00FF66&vCenter=true&width=550&height=25&lines=%22HELLO+WORLD!+WELCOME+TO+MY+ARCADE+DOMAIN.%22" alt="Speech" /><br/>
-      <i>"I'm a 17-year-old student developer from <b>SMKN 2 Bandung</b>. My coding adventure started way back in <b>6th grade elementary school</b> when curiosity took over. Ever since, I've been grinding quests in Full-Stack Web Development, breaking and fixing code, and slithering around bugs like a classic snake game!"</i>
+      <i>"I'm a 17-year-old student developer from <b>SMKN 2 Bandung</b>. My coding adventure started way back in <b>6th grade elementary school</b> when curiosity took over. Ever since, I've been grinding quests in Full-Stack Web Development, breaking and fixing code, doing some low level stuff, homelabing, making game, and slithering around bugs like a classic snake game!"</i>
     </td>
   </tr>
 </table>
@@ -63,7 +63,7 @@
           <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg" width="100%">
         </picture>
         <br/>
-        <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KEVIN DEVOURING COMMITS... 🍎 ]</code>
+        <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KevinTadashiii DEVOURING COMMITS... 🍎 ]</code>
       </td>
     </tr>
   </tbody>
@@ -84,31 +84,34 @@
       <b>⚔️ WEAPONS (LANGUAGES)</b>
       <hr/>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=html,css,js,ts,php,py&theme=dark&perline=3" alt="Languages" />
+        <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,c,cpp,rust,kotlin&theme=dark&perline=3" alt="Languages" />
       </a>
       <br/><br/>
       <code>HTML5 • CSS3 • JS</code><br/>
-      <code>TS • PHP • Python</code>
+      <code>TS • Python • C</code><br/>
+      <code>C++ • Rust • Kotlin</code>
     </td>
     <td align="center" width="33%">
       <b>🛡️ ARMOR (FRAMEWORKS)</b>
       <hr/>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,laravel,express&theme=dark&perline=3" alt="Frameworks" />
+        <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,laravel,express,fastapi,flutter&theme=dark&perline=3" alt="Frameworks" />
       </a>
       <br/><br/>
       <code>React • Next.js • Tailwind</code><br/>
-      <code>Node • Laravel • Express</code>
+      <code>Laravel • Express.js</code><br/>
+      <code>FastAPI • Flutter</code>
     </td>
     <td align="center" width="33%">
       <b>🧰 TOOLS & UTILITIES</b>
       <hr/>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,vscode,linux&theme=dark&perline=3" alt="Tools" />
+        <img src="https://skillicons.dev/icons?i=mysql,docker,postman,git,github,vscode,idea,linux,windows&theme=dark&perline=3" alt="Tools" />
       </a>
       <br/><br/>
-      <code>MySQL • Postgres • Git</code><br/>
-      <code>GitHub • VS Code • Linux</code>
+      <code>MySQL • Docker • Postman</code><br/>
+      <code>Git • GitHub • VS Code</code><br/>
+      <code>JetBrains • Linux • Windows</code>
     </td>
   </tr>
 </table>
