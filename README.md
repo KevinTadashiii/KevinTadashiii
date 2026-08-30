@@ -157,11 +157,16 @@
 
 <table>
   <tr>
-    <td align="center" valign="middle" width="55%">
-      <img src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-metrics.svg" alt="Kevin's GitHub Metrics" width="100%" />
+    <td align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-stats.svg" alt="Kevin's GitHub Stats" />
     </td>
-    <td align="center" valign="middle" width="45%">
-      <img src="https://streak-stats.demolab.com?user=KevinTadashiii&theme=matrix&hide_border=false&border=00ff66&background=060d09&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&currStreakNum=00ff66&sideNums=00ff66&sideLabels=80df9e&dates=80df9e" alt="GitHub Streak" width="100%" />
+    <td align="center" valign="middle">
+      <img src="https://streak-stats.demolab.com?user=KevinTadashiii&theme=matrix&hide_border=false&border=00ff66&background=060d09&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&currStreakNum=00ff66&sideNums=00ff66&sideLabels=80df9e&dates=80df9e" alt="GitHub Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-top-langs.svg" alt="Top Languages" />
     </td>
   </tr>
 </table>
