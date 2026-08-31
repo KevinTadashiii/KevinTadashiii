@@ -193,25 +193,18 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="mailto:your-email@example.com">
+      <a href="mailto:kevintadashiii@gmail.com">
         <img src="https://img.shields.io/badge/EMAIL-060d09?style=for-the-badge&logo=gmail&logoColor=00ff66&labelColor=000000" alt="Email" />
       </a>
     </td>
     <td align="center">
-      <a href="https://instagram.com/" target="_blank">
+      <a href="https://www.instagram.com/bayabaytjn_/" target="_blank">
         <img src="https://img.shields.io/badge/INSTAGRAM-060d09?style=for-the-badge&logo=instagram&logoColor=00ff66&labelColor=000000" alt="Instagram" />
       </a>
     </td>
     <td align="center">
-      <a href="https://linkedin.com/" target="_blank">
-        <img src="https://img.shields.io/badge/LINKEDIN-060d09?style=for-the-badge&logo=linkedin&logoColor=00ff66&labelColor=000000" alt="LinkedIn" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="3">
-      <a href="https://discord.com/" target="_blank">
-        <img src="https://img.shields.io/badge/DISCORD_LOBBY-060d09?style=for-the-badge&logo=discord&logoColor=00ff66&labelColor=000000" alt="Discord" />
+      <a href="https://www.reddit.com/user/kevintadashi/" target="_blank">
+        <img src="https://img.shields.io/badge/REDDIT-060d09?style=for-the-badge&logo=reddit&logoColor=00ff66&labelColor=000000" alt="Reddit" />
       </a>
     </td>
   </tr>
@@ -219,12 +212,9 @@
 
 <br/>
 
-```text
-  _____________________________________________________________
- /                                                             \
-|   [🪙 1 CREDIT INSERTED]  ───►  READY FOR NEW ADVENTURES!    |
- \_____________________________________________________________/
-```
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1000&color=00FF66&center=true&vCenter=true&width=550&height=50&lines=%F0%9F%AA%99+INSERT+COIN+TO+PLAY...;%F0%9F%AA%99+1+CREDIT+INSERTED;%F0%9F%91%BE+READY+FOR+NEW+ADVENTURES%21" alt="Insert Coin" />
+</div>
 
 <!-- Footer Retro Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050d09,50:0a1f14,100:00ff66&height=100&section=footer" width="100%" alt="Footer Wave" />
