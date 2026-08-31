@@ -5,7 +5,7 @@
 
 <!-- Pixel Font Animated Typing Subheader -->
 <a href="https://github.com/KevinTadashiii">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=45&lines=%3E+PLAYER_1+CONNECTED%3A+KevinTadashiii;%3E+LEVEL%3A+17+Y%2FO+%7C+SMKN+2+BANDUNG;%3E+EXP%3A+CODING+SINCE+GRADE+6+ELEMENTARY;%3E+MISSION%3A+SLITHER+THROUGH+BUGS+%26+DEV+APPS;%3E+INSERT+COIN+TO+COMMENCE+GAMEPLAY+%F0%9F%95%B9%EF%B8%8F" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=00FF66&center=true&vCenter=true&width=850&height=45&lines=%3E+PLAYER_1+CONNECTED%3A+KevinTadashiii;%3E+LEVEL%3A+17+Y%2FO+%7C+SMKN+2+BANDUNG;%3E+EXP%3A+CODING+SINCE+GRADE+6+ELEMENTARY;%3E+MISSION%3A+SLITHER+THROUGH+BUGS+%26+DOMINATE+THE+LEADERBOARD+%F0%9F%8F%86;%3E+INSERT+COIN+TO+COMMENCE+GAMEPLAY+%F0%9F%95%B9%EF%B8%8F" alt="Typing Banner" />
 </a>
 
 <br/>
@@ -76,7 +76,7 @@
 <!-- INVENTORY & SKILL TREE GRID -->
 <div align="center">
 
-### 🎒 `[ INVENTORY & SKILL ARSENAL ]`
+### 🎒 `[ INVENTORY & SKILL ]`
 
 <table>
   <tr>
@@ -134,7 +134,7 @@
   </tr>
   <tr>
     <td><b>🐧 LINUX & HOMELAB</b></td>
-    <td><code>[████████████████████] 99/100</code></td>
+    <td><code>[████████████████████] MAX</code></td>
     <td><b>🐍 BUG SLITHERING</b></td>
     <td><code>[████████████████████] MAX</code></td>
   </tr>
