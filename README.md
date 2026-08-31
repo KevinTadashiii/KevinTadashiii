@@ -216,6 +216,18 @@
   <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1000&color=00FF66&center=true&vCenter=true&width=550&height=50&lines=%F0%9F%AA%99+INSERT+COIN+TO+PLAY...;%F0%9F%AA%99+1+CREDIT+INSERTED;%F0%9F%91%BE+READY+FOR+NEW+ADVENTURES%21" alt="Insert Coin" />
 </div>
 
+<br/>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/12cpBxBl4WqlHO/giphy.gif" width="240" alt="Michael Jackson Moonwalk" />
+  <br/><br/><br/>
+  <details>
+    <summary>🕹️ <code>[ ENTER RETRO CHEAT CODE ]</code></summary>
+    <br/>
+    <code>🕺 HEE HEE! 🕺</code>
+  </details>
+</div>
+
 <!-- Footer Retro Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050d09,50:0a1f14,100:00ff66&height=100&section=footer" width="100%" alt="Footer Wave" />
 
