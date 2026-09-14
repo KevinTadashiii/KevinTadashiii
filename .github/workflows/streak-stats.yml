@@ -20,18 +20,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          user: KevinTadashiii
-          theme: matrix
-          hide_border: false
-          border: 00ff66
-          background: 060d09
-          ring: 00ff66
-          fire: 00ff66
-          currStreakLabel: 00ff66
-          currStreakNum: 00ff66
-          sideNums: 00ff66
-          sideLabels: 80df9e
-          dates: 80df9e
+          options: user=KevinTadashiii&theme=matrix&hide_border=false&border=00ff66&background=060d09&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&currStreakNum=00ff66&sideNums=00ff66&sideLabels=80df9e&dates=80df9e
           path: .github/assets/streak.svg
 
       - name: Commit streak stats
