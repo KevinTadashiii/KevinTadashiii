@@ -163,7 +163,7 @@
       </a>
     </td>
     <td align="center" valign="middle">
-      <img src="https://streak-stats.demolab.com?user=KevinTadashiii&theme=matrix&hide_border=false&border=00ff66&background=060d09&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&currStreakNum=00ff66&sideNums=00ff66&sideLabels=80df9e&dates=80df9e" alt="GitHub Streak" />
+      <img src="./.github/assets/streak.svg" alt="GitHub Streak" />
     </td>
   </tr>
   <tr>
