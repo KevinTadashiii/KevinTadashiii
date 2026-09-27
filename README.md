@@ -222,7 +222,7 @@
   <img src="https://media.giphy.com/media/12cpBxBl4WqlHO/giphy.gif" width="240" alt="Michael Jackson Moonwalk" />
   <br/><br/><br/>
   <details>
-    <summary>🕹️ <code>[ ENTER RETRO CHEAT CODE ]</code></summary>
+    <summary>🕹️ <code>[ ENTER CHEAT CODE ]</code></summary>
     <br/>
     <code>🕺 HEE HEE! 🕺</code>
   </details>
