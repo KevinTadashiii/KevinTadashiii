@@ -22,6 +22,18 @@
   </tr>
 </table>
 
+<br/>
+
+<!-- Status Badges Row -->
+<a href="https://github.com/KevinTadashiii"><img src="https://img.shields.io/badge/STATUS-OPTIONAL%20CO--OP-00ff66?labelColor=060d09&style=flat-square" alt="Status" /></a>
+<a href="https://github.com/KevinTadashiii"><img src="https://img.shields.io/badge/RANK-S--TIER%20GRINDER-00ff66?labelColor=060d09&style=flat-square" alt="Rank" /></a>
+<a href="https://github.com/KevinTadashiii"><img src="https://img.shields.io/badge/REGION-BANDUNG%2C%20ID-00ff66?labelColor=060d09&style=flat-square" alt="Region" /></a>
+
+<br/>
+
+<!-- Visitor Counter -->
+<img src="https://komarev.com/ghpvc/?username=KevinTadashiii&style=for-the-badge&color=00ff66&label=👾%20PLAYERS%20ENTERED%20THE%20ARCADE" alt="Visitor Counter" />
+
 </div>
 
 <br/>
@@ -42,28 +54,71 @@
 
 <br/>
 
-<!-- SNAKE GAME ARENA SECTION -->
+<div align="center">
+  <code>▶ CURRENT QUEST: MASTER FULL-STACK ── EXPAND THE HOMELAB ── BUILD MORE GAMES ── CLIMB THE LADDER</code>
+</div>
+
+<br/>
+
+<!-- ARCADE CABINET SECTION -->
 <div align="center">
 
 <table>
   <thead>
     <tr>
       <th align="center">
-        🕹️ <b>SNAKE.EXE // REAL-TIME GITHUB CONTRIBUTION ARENA</b> 🍎
+        🕹️ <b>ARCADE CABINET // SELECT YOUR GAME</b> 🕹️
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-        <!-- Live Snake Contribution Animation -->
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake.svg">
-          <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg" width="100%">
-        </picture>
+        <code>[ 1 ] SNAKE.EXE</code> ────── <code>[ 2 ] PACMAN.EXE</code><br/>
+        <code>▸ BOTH CABS RUN ON YOUR REAL GITHUB CONTRIBUTION DATA — AUTO-UPDATED DAILY</code>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top">
+        <!-- Cabinet 01: Snake -->
+        <table>
+          <thead>
+            <tr>
+              <th align="center">🍎 <b>CABINET 01 // SNAKE.EXE</b> 🍎</th>
+            </tr>
+          </thead>
+          <tr>
+            <td align="center">
+              <picture>
+                <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg">
+                <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake.svg">
+                <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg" width="100%">
+              </picture>
+              <br/>
+              <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KevinTadashiii DEVOURING COMMITS... 🍎 ]</code>
+            </td>
+          </tr>
+        </table>
         <br/>
-        <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KevinTadashiii DEVOURING COMMITS... 🍎 ]</code>
+        <!-- Cabinet 02: Pacman -->
+        <table>
+          <thead>
+            <tr>
+              <th align="center">👻 <b>CABINET 02 // PACMAN.EXE</b> 👻</th>
+            </tr>
+          </thead>
+          <tr>
+            <td align="center">
+              <picture>
+                <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg">
+                <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg">
+                <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg" width="100%">
+              </picture>
+              <br/>
+              <code>[ 🟡 ● ● ● 🟡 ── 👻 GHOSTS INCOMING... EAT THE POWER PELLETS! 👻 ]</code>
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </tbody>
@@ -150,6 +205,53 @@
 
 <br/>
 
+<!-- QUEST LOG & ACHIEVEMENTS -->
+<div align="center">
+
+### 📜 `[ QUEST LOG // ACHIEVEMENTS ]`
+
+<table>
+  <tr>
+    <th align="center" width="34%">🏅 ACHIEVEMENT</th>
+    <th align="center" width="46%">DESCRIPTION</th>
+    <th align="center" width="20%">STATUS</th>
+  </tr>
+  <tr>
+    <td align="center"><code>⚔️ FIRST BLOOD</code></td>
+    <td align="center">Squashed the first bug (6th grade, 2019)</td>
+    <td align="center"><code>✅ UNLOCKED</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>⚡ SPEEDRUNNER</code></td>
+    <td align="center">10+ years grinding code without quitting</td>
+    <td align="center"><code>✅ UNLOCKED</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>🐧 HOMELAB LORD</code></td>
+    <td align="center">Raised a home server rack & tamed it</td>
+    <td align="center"><code>✅ UNLOCKED</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>🕸️ FULL-STACK WIZARD</code></td>
+    <td align="center">Mastered the Web Dev main quest line</td>
+    <td align="center"><code>✅ UNLOCKED</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>🐍 SNAKE CHARMER</code></td>
+    <td align="center">Slithering through the leaderboard</td>
+    <td align="center"><code>🔄 IN PROGRESS</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>❓ ???</code></td>
+    <td align="center">A hidden achievement... keep playing</td>
+    <td align="center"><code>🔒 ???</code></td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
 <!-- ARCADE HIGH SCORES & GITHUB STATS -->
 <div align="center">
 
@@ -170,6 +272,53 @@
     <td colspan="2" align="center">
       <img src="https://github-stats-extended.vercel.app/api/top-langs?username=KevinTadashiii&langs_count=5&theme=chartreuse-dark" alt="Top Languages" />
     </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-profile-trophy.vercel.app/?username=KevinTadashiii&theme=chartreuse-dark&no-frame=true&margin-w=8" alt="GitHub Trophies" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- ARCADE LEADERBOARD -->
+<div align="center">
+
+### 🏁 `[ GLOBAL LEADERBOARD ]`
+
+<table>
+  <tr>
+    <th align="center" width="15%">POS</th>
+    <th align="center" width="35%">PLAYER</th>
+    <th align="center" width="25%">SCORE</th>
+    <th align="center" width="25%">ZONE</th>
+  </tr>
+  <tr>
+    <td align="center"><code>01</code></td>
+    <td align="center"><b>KEV</b> <code>(YOU)</code></td>
+    <td align="center"><code>999999</code></td>
+    <td align="center"><code>BANDUNG</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>02</code></td>
+    <td align="center">BAY</td>
+    <td align="center"><code>087301</code></td>
+    <td align="center"><code>JATENG</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>03</code></td>
+    <td align="center">SMKN2</td>
+    <td align="center"><code>013370</code></td>
+    <td align="center"><code>BDG</code></td>
+  </tr>
+  <tr>
+    <td align="center"><code>04</code></td>
+    <td align="center">GHOST</td>
+    <td align="center"><code>000000</code></td>
+    <td align="center"><code>???</code></td>
   </tr>
 </table>
 
@@ -222,9 +371,10 @@
   <img src="https://media.giphy.com/media/12cpBxBl4WqlHO/giphy.gif" width="240" alt="Michael Jackson Moonwalk" />
   <br/><br/><br/>
   <details>
-    <summary>🕹️ <code>[ ENTER CHEAT CODE ]</code></summary>
+    <summary>🕹️ <code>[ CHEAT CODE DETECTED // TRY THE KONAMI CODE ]</code></summary>
     <br/>
-    <code>🕺 HEE HEE! 🕺</code>
+    <code>↑ ↑ ↓ ↓ ← ← → → B A</code><br/>
+    <sub><i>+30 LIVES UNLOCKED 🕺 HEE HEE!</i></sub>
   </details>
 </div>
 
