@@ -62,7 +62,8 @@
 
 <br/>
 
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden; margin-bottom: 20px;">
+<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
+<br/><br/>
   <code>▶ CURRENT QUEST: MASTER FULL-STACK ── EXPAND THE HOMELAB ── BUILD MORE GAMES ── CLIMB THE LADDER</code>
 </div>
 
@@ -71,13 +72,16 @@
 <!-- ARCADE CABINET SECTION -->
 <div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
 
-<div style="text-align: center; margin-bottom: 12px;">
+<div style="text-align: center;">
+<br/>
   <code>[ 1 ] SNAKE.EXE</code> ────── <code>[ 2 ] PACMAN.EXE</code>
 </div>
 
+<br/><br/>
 <!-- Cabinet 01: Snake -->
-<div style="margin-bottom: 24px;">
-  <div style="text-align: center; font-weight: bold; margin-bottom: 8px; color: #00ff66;">
+<div>
+  <div style="text-align: center; font-weight: bold; color: #00ff66;">
+<br/>
     🍎 CABINET 01 // SNAKE.EXE 🍎
   </div>
   <div style="text-align: center; max-width: 980px; margin: 0 auto; overflow-x: hidden;">
@@ -87,14 +91,18 @@
       <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </picture>
   </div>
-  <div style="text-align: center; margin-top: 8px; font-size: 12px;">
+  <div style="text-align: center; font-size: 12px;">
+<br/>
     <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KevinTadashiii DEVOURING COMMITS... 🍎 ]</code>
   </div>
 </div>
 
+<br/><br/><br/>
+
 <!-- Cabinet 02: Pacman -->
-<div style="margin-bottom: 24px; margin-top: 50px;">
-  <div style="text-align: center; font-weight: bold; margin-bottom: 8px; color: #00ff66;">
+<div>
+  <div style="text-align: center; font-weight: bold; color: #00ff66;">
+<br/>
     👻 CABINET 02 // PACMAN.EXE 👻
   </div>
   <div style="text-align: center; max-width: 980px; margin: 0 auto; overflow-x: hidden;">
@@ -104,7 +112,8 @@
       <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </picture>
   </div>
-  <div style="text-align: center; margin-top: 8px; font-size: 12px;">
+  <div style="text-align: center; font-size: 12px;">
+<br/>
     <code>[ 🟡 ● ● ● 🟡 ── 👻 GHOSTS INCOMING... EAT THE POWER PELLETS! 👻 ]</code>
   </div>
 </div>
