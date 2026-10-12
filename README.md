@@ -77,7 +77,7 @@
   <code>[ 1 ] SNAKE.EXE</code> ────── <code>[ 2 ] PACMAN.EXE</code>
 </div>
 
-<br/><br/>
+<br/>
 <!-- Cabinet 01: Snake -->
 <div>
   <div style="text-align: center; font-weight: bold; color: #00ff66;">
@@ -97,7 +97,7 @@
   </div>
 </div>
 
-<br/><br/><br/>
+<br/>
 
 <!-- Cabinet 02: Pacman -->
 <div>
