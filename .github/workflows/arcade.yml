@@ -1,8 +1,9 @@
-name: Generate Pacman Contribution Grid
+name: Generate Arcade Contribution Grids
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    # Run everyday at midnight (UTC)
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -20,7 +21,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Generate snake contribution grid (Platane/snk)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node for pacman
         uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -28,7 +39,7 @@ jobs:
       - name: Install pacman-contribution-graph
         run: npm install pacman-contribution-graph
 
-      - name: Generate pacman SVGs
+      - name: Generate pacman contribution graphs (light & dark)
         run: |
           node --input-type=module <<'EOF'
           import { ArcadeRenderer } from 'pacman-contribution-graph';
@@ -73,7 +84,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push pacman SVGs to the output branch
+      - name: Push all SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
