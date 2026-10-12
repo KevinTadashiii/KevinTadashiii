@@ -71,65 +71,43 @@
 <!-- ARCADE CABINET SECTION -->
 <div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
 
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
-  <thead>
-    <tr>
-      <th align="center">
-        🕹️ <b>ARCADE CABINET // SELECT YOUR GAME</b> 🕹️
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <code>[ 1 ] SNAKE.EXE</code> ────── <code>[ 2 ] PACMAN.EXE</code><br/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="top">
-        <!-- Cabinet 01: Snake -->
-        <table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
-          <thead>
-            <tr>
-              <th align="center">🍎 <b>CABINET 01 // SNAKE.EXE</b> 🍎</th>
-            </tr>
-          </thead>
-          <tr>
-            <td align="center">
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg">
-                <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake.svg">
-                <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg" width="100%" style="max-width: 100%; height: auto;">
-              </picture>
-              <br/>
-              <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KevinTadashiii DEVOURING COMMITS... 🍎 ]</code>
-            </td>
-          </tr>
-        </table>
-        <br/>
-        <!-- Cabinet 02: Pacman -->
-        <table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
-          <thead>
-            <tr>
-              <th align="center">👻 <b>CABINET 02 // PACMAN.EXE</b> 👻</th>
-            </tr>
-          </thead>
-          <tr>
-            <td align="center">
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg">
-                <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg">
-                <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg" width="100%" style="max-width: 100%; height: auto;">
-              </picture>
-              <br/>
-              <code>[ 🟡 ● ● ● 🟡 ── 👻 GHOSTS INCOMING... EAT THE POWER PELLETS! 👻 ]</code>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div style="text-align: center; margin-bottom: 12px;">
+  <code>[ 1 ] SNAKE.EXE</code> ────── <code>[ 2 ] PACMAN.EXE</code>
+</div>
+
+<!-- Cabinet 01: Snake -->
+<div style="margin-bottom: 24px;">
+  <div style="text-align: center; font-weight: bold; margin-bottom: 8px; color: #00ff66;">
+    🍎 CABINET 01 // SNAKE.EXE 🍎
+  </div>
+  <div style="text-align: center; max-width: 980px; margin: 0 auto; overflow-x: hidden;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake.svg">
+      <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
+  </div>
+  <div style="text-align: center; margin-top: 8px; font-size: 12px;">
+    <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KevinTadashiii DEVOURING COMMITS... 🍎 ]</code>
+  </div>
+</div>
+
+<!-- Cabinet 02: Pacman -->
+<div style="margin-bottom: 24px;">
+  <div style="text-align: center; font-weight: bold; margin-bottom: 8px; color: #00ff66;">
+    👻 CABINET 02 // PACMAN.EXE 👻
+  </div>
+  <div style="text-align: center; max-width: 980px; margin: 0 auto; overflow-x: hidden;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg">
+      <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    </picture>
+  </div>
+  <div style="text-align: center; margin-top: 8px; font-size: 12px;">
+    <code>[ 🟡 ● ● ● 🟡 ── 👻 GHOSTS INCOMING... EAT THE POWER PELLETS! 👻 ]</code>
+  </div>
+</div>
 
 </div>
 
