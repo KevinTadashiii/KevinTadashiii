@@ -2,13 +2,8 @@ name: Generate Pacman Contribution Grid
 
 on:
   schedule:
-    # Run every day at 01:00 (UTC)
     - cron: "0 1 * * *"
-
-  # Allows manual run from the Actions tab
   workflow_dispatch:
-
-  # Run on every push on the main/master branch
   push:
     branches:
       - main
@@ -25,32 +20,60 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Install pacman-contribution-graph
-        run: npm install -g pacman-contribution-graph
+        run: npm install pacman-contribution-graph
 
-      - name: Generate pacman contribution graph (light theme)
+      - name: Generate pacman SVGs
         run: |
-          pacman-contribution-graph \
-            --game pacman \
-            --username KevinTadashiii \
-            --platform github \
-            --gameTheme github \
-            --output dist/pacman-contribution-graph.svg
+          node --input-type=module <<'EOF'
+          import { ArcadeRenderer } from 'pacman-contribution-graph';
+          import fs from 'fs';
+          import path from 'path';
+
+          const game = 'pacman';
+          const themes = ['github', 'github-dark'];
+          const username = 'KevinTadashiii';
+          const token = process.env.GITHUB_TOKEN;
+
+          fs.mkdirSync('dist', { recursive: true });
+
+          for (const theme of themes) {
+            console.log(`Generating ${game} with theme: ${theme}...`);
+            const renderer = new ArcadeRenderer({
+              game,
+              platform: 'github',
+              username,
+              gameTheme: theme,
+              githubSettings: { accessToken: token },
+              svgCallback: (svg) => {
+                const suffix = theme === 'github' ? '' : '-dark';
+                const output = path.join('dist', `${game}-contribution-graph${suffix}.svg`);
+                fs.writeFileSync(output, svg);
+                console.log(`SVG saved to ${output}`);
+              },
+              gameOverCallback: () => {
+                console.log(`Game over for ${theme}`);
+              }
+            });
+            try {
+              await renderer.start();
+              console.log(`Completed ${theme}`);
+            } catch (error) {
+              console.error(`Error generating ${theme}:`, error);
+              process.exit(1);
+            }
+          }
+          console.log('All done!');
+          EOF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate pacman contribution graph (dark theme)
-        run: |
-          pacman-contribution-graph \
-            --game pacman \
-            --username KevinTadashiii \
-            --platform github \
-            --gameTheme github-dark \
-            --output dist/pacman-contribution-graph-dark.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push pacman-contribution-graph.svg to the output branch
+      - name: Push pacman SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
