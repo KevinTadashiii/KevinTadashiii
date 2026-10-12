@@ -22,11 +22,29 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: Generate pacman contribution graph SVGs
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: "pacman"
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pacman-contribution-graph
+        run: npm install -g pacman-contribution-graph
+
+      - name: Generate pacman contribution graph (light theme)
+        run: |
+          pacman-contribution-graph \
+            --game pacman \
+            --username KevinTadashiii \
+            --platform github \
+            --gameTheme github \
+            --output dist/pacman-contribution-graph.svg
+
+      - name: Generate pacman contribution graph (dark theme)
+        run: |
+          pacman-contribution-graph \
+            --game pacman \
+            --username KevinTadashiii \
+            --platform github \
+            --gameTheme github-dark \
+            --output dist/pacman-contribution-graph-dark.svg
 
       - name: Push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
