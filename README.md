@@ -62,7 +62,7 @@
 
 <br/>
 
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
+<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden; margin-bottom: 20px;">
   <code>▶ CURRENT QUEST: MASTER FULL-STACK ── EXPAND THE HOMELAB ── BUILD MORE GAMES ── CLIMB THE LADDER</code>
 </div>
 
@@ -93,7 +93,7 @@
 </div>
 
 <!-- Cabinet 02: Pacman -->
-<div style="margin-bottom: 24px;">
+<div style="margin-bottom: 24px; margin-top: 50px;">
   <div style="text-align: center; font-weight: bold; margin-bottom: 8px; color: #00ff66;">
     👻 CABINET 02 // PACMAN.EXE 👻
   </div>
