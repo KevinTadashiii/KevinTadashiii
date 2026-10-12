@@ -36,6 +36,8 @@ jobs:
             --platform github \
             --gameTheme github \
             --output dist/pacman-contribution-graph.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pacman contribution graph (dark theme)
         run: |
@@ -45,6 +47,8 @@ jobs:
             --platform github \
             --gameTheme github-dark \
             --output dist/pacman-contribution-graph-dark.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
