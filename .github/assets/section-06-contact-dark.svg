@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" role="img">
+    <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3.6" fill="#D97757">06  —  CONTACT</text>
+    <text x="28" y="102" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" letter-spacing="-0.8" fill="#F5EBDD">Send a postcard</text>
+    
+    <g transform="translate(1086 30) rotate(2)" stroke="#D97757" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+      <rect x="4" y="14" width="72" height="50" rx="4"/>
+      <path d="M4 23h72"/>
+      <rect x="54" y="26" width="15" height="12" rx="1"/>
+      <path d="M14 40h25M14 49h17"/>
+      <path d="M14 59c6-4 12-4 18 0"/>
+    </g>
+    <path d="M30 132H1170" stroke="#3B2D24" stroke-width="1.2"/>
+  </svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" role="img">
+    <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3.6" fill="#A3462A">05  —  NUMBERS</text>
+    <text x="28" y="102" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" letter-spacing="-0.8" fill="#2C1810">The receipts</text>
+    
+    <g transform="translate(1088 26) rotate(-2)" stroke="#A3462A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+      <path d="M14 6h48v66l-8-5-8 5-8-5-8 5-8-5-8 5V6Z"/>
+      <path d="M26 22h24M26 32h24M26 42h15M26 56h24"/>
+      <path d="M27 22h0M27 32h0" stroke-width="4"/>
+    </g>
+    <path d="M30 132H1170" stroke="#E2D6C4" stroke-width="1.2"/>
+  </svg>

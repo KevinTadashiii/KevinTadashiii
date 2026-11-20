@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" role="img">
+    <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3.6" fill="#D97757">03  —  SKILLS</text>
+    <text x="28" y="102" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" letter-spacing="-0.8" fill="#F5EBDD">The tool rack</text>
+    
+    <g transform="translate(1088 28) rotate(-4)" stroke="#D97757" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+      <path d="M58 8a17 17 0 0 0-21 22L10 57a7 7 0 0 0 10 10l27-27a17 17 0 0 0 22-21l-9 9-10-10 8-10Z"/>
+      <path d="M16 58l5 5"/>
+    </g>
+    <path d="M30 132H1170" stroke="#3B2D24" stroke-width="1.2"/>
+  </svg>

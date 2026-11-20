@@ -1,4 +1,4 @@
-name: Generate Arcade Contribution Grids
+name: Generate contribution graphs
 
 on:
   schedule:
@@ -26,8 +26,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%23A3462A&color_dots=%23F0E8DA,%23DCCDB8,%23B7BFA9,%238A9C7C,%2344603F
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23E07A54&color_dots=%23271E19,%233B2D24,%23614A39,%238A6650,%23C75B39
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -51,6 +51,11 @@ jobs:
           const username = 'KevinTadashiii';
           const token = process.env.GITHUB_TOKEN;
 
+          const backgrounds = {
+            'github': '#F5F0E8',
+            'github-dark': '#0A0A0A'
+          };
+
           fs.mkdirSync('dist', { recursive: true });
 
           for (const theme of themes) {
@@ -64,7 +69,13 @@ jobs:
               svgCallback: (svg) => {
                 const suffix = theme === 'github' ? '' : '-dark';
                 const output = path.join('dist', `${game}-contribution-graph${suffix}.svg`);
-                fs.writeFileSync(output, svg);
+
+                // Match the contribution grid to the desk palette.
+                const recolored = svg
+                  .replace('<rect width="100%" height="100%" fill="#ffffff"/>', `<rect width="100%" height="100%" fill="${backgrounds[theme]}"/>`)
+                  .replace('<rect width="100%" height="100%" fill="#0d1117"/>', `<rect width="100%" height="100%" fill="${backgrounds[theme]}"/>`);
+
+                fs.writeFileSync(output, recolored);
                 console.log(`SVG saved to ${output}`);
               },
               gameOverCallback: () => {

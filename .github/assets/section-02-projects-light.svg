@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" role="img">
+    <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3.6" fill="#A3462A">02  —  PROJECTS</text>
+    <text x="28" y="102" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" letter-spacing="-0.8" fill="#2C1810">The project folder</text>
+    
+    <g transform="translate(1086 30) rotate(2)" stroke="#A3462A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+      <path d="M6 20h28l8 9h28v34H6V20Z"/>
+      <path d="M6 31h64"/>
+      <path d="M19 45h19M19 54h31"/>
+      <path d="M58 13l2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6Z" fill="#A3462A" stroke="none"/>
+    </g>
+    <path d="M30 132H1170" stroke="#E2D6C4" stroke-width="1.2"/>
+  </svg>

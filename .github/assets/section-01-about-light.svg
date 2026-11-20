@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" role="img">
+    <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3.6" fill="#A3462A">01  —  ABOUT</text>
+    <text x="28" y="102" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" letter-spacing="-0.8" fill="#2C1810">Who is typing this?</text>
+    
+    <g transform="translate(1088 28) rotate(-3)" stroke="#A3462A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+      <path d="M6 18c14-6 25-4 32 2v38c-8-6-19-8-32-2V18Z"/>
+      <path d="M70 18c-14-6-25-4-32 2v38c8-6 19-8 32-2V18Z"/>
+      <path d="M38 21v37"/>
+      <path d="M14 29c6-2 12-1 17 2M14 37c6-2 12-1 17 2M62 29c-6-2-12-1-17 2M62 37c-6-2-12-1-17 2"/>
+    </g>
+    <path d="M30 132H1170" stroke="#E2D6C4" stroke-width="1.2"/>
+  </svg>

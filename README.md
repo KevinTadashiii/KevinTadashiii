@@ -1,380 +1,338 @@
-<div align="center" style="overflow-x: hidden; max-width: 980px;">
+<!-- ── HERO ─────────────────────────────────────────────────────────────── -->
 
-<!-- Arcade Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:050d09,50:0a1f14,100:030805&height=220&section=header&text=KevinTadashiii&fontSize=48&fontColor=00ff66&fontAlignY=42&desc=%F0%9F%90%8D%20ARCADE%20SNAKE%20EDITION%20%E2%80%A2%20LVL%2017%20DEV%20%E2%80%A2%20SMKN%202%20BDG&descAlignY=66&descAlign=50&descSize=16&stroke=00ff66&strokeWidth=2" width="100%" style="max-width: 980px; height: auto;" alt="Header Banner" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/hero-light.svg">
+    <img src="./.github/assets/hero-light.svg" alt="Muhammad Akbar Kevin Kanigara — a student desk wired to a terminal. Software Engineering student at SMKN 2 Bandung, Indonesia." width="100%">
+  </picture>
+</p>
 
-<!-- Pixel Font Animated Typing Subheader -->
-<a href="https://github.com/KevinTadashiii">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&pause=1000&color=00FF66&center=true&vCenter=true&width=850&height=45&lines=%3E+PLAYER_1+CONNECTED%3A+KevinTadashiii;%3E+LEVEL%3A+17+Y%2FO+%7C+SMKN+2+BANDUNG;%3E+EXP%3A+CODING+SINCE+GRADE+6+ELEMENTARY;%3E+MISSION%3A+SLITHER+THROUGH+BUGS+%26+DOMINATE+THE+LEADERBOARD+%F0%9F%8F%86;%3E+INSERT+COIN+TO+COMMENCE+GAMEPLAY+%F0%9F%95%B9%EF%B8%8F" alt="Typing Banner" />
-</a>
+<p align="center">
+  <sub><code>01</code> about &nbsp;·&nbsp; <code>02</code> projects &nbsp;·&nbsp; <code>03</code> skills &nbsp;·&nbsp; <code>04</code> journey &nbsp;·&nbsp; <code>05</code> numbers &nbsp;·&nbsp; <code>06</code> contact</sub>
+</p>
 
-<br/>
+<!-- ── 01 · ABOUT ──────────────────────────────────────────────────────── -->
 
-<!-- Arcade Top HUD / Status Bar -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/section-01-about-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/section-01-about-light.svg">
+    <img src="./.github/assets/section-01-about-light.svg" alt="01 — About: Who is typing this?" width="100%">
+  </picture>
+</p>
+
+**The short version.** I'm a 17-year-old Software Engineering student at **SMKN 2 Bandung (RPL)**, based in Bandung, Indonesia. I started coding in **6th grade** because I wanted to make a game that would get everyone's attention. The game never shipped; the code stuck.
+
+> **field notes**
+>
+> It started in 6th grade. I wanted to make a game that would get everyone's attention. Turned out, the skill I needed most wasn't art or design, but programming. That was the entry point.
+>
+> I didn't stick with game development (the art side was a wall I couldn't climb), but I fell in love with the code itself. From 7th to 8th grade, I went deep into low-level programming: C, C++, understanding how memory and machines actually work.
+>
+> By 9th grade, the scope widened. Full-stack development became the playground: JavaScript, TypeScript, Linux, Docker, and now AI. Today I'm a Software Engineering student at SMKN 2 Bandung (RPL), still chasing the same feeling: building things that work, understanding them all the way down.
+
+Outside the terminal: a homelab, a few games, and a habit of slithering through bugs. Currently learning **Laravel, Flutter, Next.js, Express.js, Tailwind CSS, PostgreSQL, Redis, CI/CD, and system design**.
+
+**Current quest.** Master full-stack · expand the homelab · build more games · climb the ladder.
+
+<!-- ── 02 · PROJECTS ───────────────────────────────────────────────────── -->
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/section-02-projects-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/section-02-projects-light.svg">
+    <img src="./.github/assets/section-02-projects-light.svg" alt="02 — Projects: The project folder" width="100%">
+  </picture>
+</p>
+
+Ten entries live in the folder. Six are on the desk:
+
+<table>
   <tr>
-    <td align="center"><b>🎮 PLAYER</b><br/><code>KevinTadashiii</code></td>
-    <td align="center"><b>❤️ HP / LIVES</b><br/><code>♥♥♥♥♥ [MAX]</code></td>
-    <td align="center"><b>⚡ LVL / AGE</b><br/><code>LEVEL 17</code></td>
-    <td align="center"><b>🏫 GUILD</b><br/><code>SMKN 2 BDG</code></td>
-    <td align="center"><b>⏳ EXP ORIGIN</b><br/><code>6TH GRADE</code></td>
-    <td align="center"><b>🪙 COINS</b><br/><code>9696969</code></td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/KevinTadashiii/My-Portfolio">Portfolio</a></b><br>
+      The site this desk borrows from: a Laravel app with a Blade front end, a hand-built terminal, and a few opinions about paper.<br>
+      <sub><code>Laravel</code> · <code>PHP</code> · <code>Blade</code> · <code>Tailwind CSS</code> · <code>Alpine.js</code> · <code>Vite</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/KevinTadashiii/Valorant-Esport">Valorant Esport</a></b><br>
+      A browser game where you build, manage, and lead a Valorant esports team through the competitive season.<br>
+      <sub><code>TypeScript</code> · <code>Next.js</code> · <code>React</code> · <code>Tailwind CSS</code> · <code>Vitest</code></sub>
+    </td>
   </tr>
-</table>
-</div>
-
-<br/>
-
-<!-- Status Badges Row -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-<a href="https://github.com/KevinTadashiii"><img src="https://img.shields.io/badge/STATUS-OPTIONAL%20CO--OP-00ff66?labelColor=060d09&style=flat-square" alt="Status" /></a>
-<a href="https://github.com/KevinTadashiii"><img src="https://img.shields.io/badge/RANK-S--TIER%20GRINDER-00ff66?labelColor=060d09&style=flat-square" alt="Rank" /></a>
-<a href="https://github.com/KevinTadashiii"><img src="https://img.shields.io/badge/REGION-BANDUNG%2C%20ID-00ff66?labelColor=060d09&style=flat-square" alt="Region" /></a>
-</div>
-
-<br/>
-
-<!-- Visitor Counter -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-<img src="https://komarev.com/ghpvc/?username=KevinTadashiii&style=for-the-badge&color=00ff66&label=👾%20PLAYERS%20ENTERED%20THE%20ARCADE" alt="Visitor Counter" />
-</div>
-
-</div>
-
-<br/>
-
-<!-- RPG DIALOGUE BOX -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
   <tr>
-    <td width="90" align="center" valign="middle">
-      <img src="https://api.iconify.design/pixelarticons:human-handsup.svg?color=%2300ff66" width="60" height="60" alt="Pixel Avatar" /><br/>
-      <sub><b>[ KEVIN ]</b></sub>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/KevinTadashiii/Manajemen-Inventaris-Lab-RPL">RPL Lab Inventory</a></b><br>
+      A Laravel dashboard for the school's RPL lab: categories, item records, and the equipment count at a glance.<br>
+      <sub><code>Laravel</code> · <code>PHP</code> · <code>Blade</code> · <code>Tailwind CSS</code> · <code>SQLite</code> · <code>Vite</code></sub>
     </td>
-    <td>
-      <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&pause=5000&color=00FF66&vCenter=true&width=550&height=25&lines=%22HELLO+WORLD!+WELCOME+TO+MY+ARCADE+DOMAIN.%22" alt="Speech" /><br/>
-      <i>"I'm a 17-year-old student developer from <b>SMKN 2 Bandung</b>. My coding adventure started way back in <b>6th grade elementary school</b> when curiosity took over. Ever since, I've been grinding quests in Full-Stack Web Development, breaking and fixing code, doing some low level stuff, homelabing, making game, and slithering around bugs like a classic snake game!"</i>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/KevinTadashiii/simple-neural-network">Simple Neural Network</a></b><br>
+      One neuron, no ML libraries: a from-scratch classifier trained with sigmoid, mean squared error, and gradient descent.<br>
+      <sub><code>Python</code> · <code>uv</code> · <code>Gradient Descent</code></sub>
     </td>
   </tr>
-</table>
-</div>
-
-<br/>
-
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-<br/><br/>
-  <code>▶ CURRENT QUEST: MASTER FULL-STACK ── EXPAND THE HOMELAB ── BUILD MORE GAMES ── CLIMB THE LADDER</code>
-</div>
-
-<br/>
-
-<!-- ARCADE CABINET SECTION -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-
-<div style="text-align: center;">
-<br/>
-  <code>[ 1 ] SNAKE.EXE</code> ────── <code>[ 2 ] PACMAN.EXE</code>
-</div>
-
-<br/>
-<!-- Cabinet 01: Snake -->
-<div>
-  <div style="text-align: center; font-weight: bold; color: #00ff66;">
-<br/>
-    🍎 CABINET 01 // SNAKE.EXE 🍎
-  </div>
-  <div style="text-align: center; max-width: 980px; margin: 0 auto; overflow-x: hidden;">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake.svg">
-      <img alt="Snake Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-    </picture>
-  </div>
-  <div style="text-align: center; font-size: 12px;">
-<br/>
-    <code>[ 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🟢 ── 🐍 KevinTadashiii DEVOURING COMMITS... 🍎 ]</code>
-  </div>
-</div>
-
-<br/>
-
-<!-- Cabinet 02: Pacman -->
-<div>
-  <div style="text-align: center; font-weight: bold; color: #00ff66;">
-<br/>
-    👻 CABINET 02 // PACMAN.EXE 👻
-  </div>
-  <div style="text-align: center; max-width: 980px; margin: 0 auto; overflow-x: hidden;">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg">
-      <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-    </picture>
-  </div>
-  <div style="text-align: center; font-size: 12px;">
-<br/>
-    <code>[ 🟡 ● ● ● 🟡 ── 👻 GHOSTS INCOMING... EAT THE POWER PELLETS! 👻 ]</code>
-  </div>
-</div>
-
-</div>
-
-<br/>
-
-<!-- INVENTORY & SKILL TREE GRID -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-
-### 🎒 `[ INVENTORY & SKILL ]`
-
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
   <tr>
-    <td align="center" width="33%">
-      <b>⚔️ WEAPONS (LANGUAGES)</b>
-      <hr/>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=html,css,js,ts,py,c,cpp,rust,kotlin&theme=dark&perline=3" alt="Languages" style="max-width: 100%; height: auto;" />
-      </a>
-      <br/><br/>
-      <code>HTML5 • CSS3 • JS</code><br/>
-      <code>TS • Python • C</code><br/>
-      <code>C++ • Rust • Kotlin</code>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/KevinTadashiii/DHT22-API">DHT22 API</a></b><br>
+      ESP32 firmware that reads a DHT22 sensor and serves temperature and humidity over HTTP on the local network.<br>
+      <sub><code>C</code> · <code>ESP-IDF</code> · <code>ESP32</code> · <code>FreeRTOS</code> · <code>HTTP</code></sub>
     </td>
-    <td align="center" width="33%">
-      <b>🛡️ ARMOR (FRAMEWORKS)</b>
-      <hr/>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,laravel,express,fastapi,flutter&theme=dark&perline=3" alt="Frameworks" style="max-width: 100%; height: auto;" />
-      </a>
-      <br/><br/>
-      <code>React • Next.js • Tailwind</code><br/>
-      <code>Laravel • Express.js</code><br/>
-      <code>FastAPI • Flutter</code>
-    </td>
-    <td align="center" width="33%">
-      <b>🧰 TOOLS & UTILITIES</b>
-      <hr/>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=mysql,docker,postman,git,github,vscode,idea,linux,windows&theme=dark&perline=3" alt="Tools" style="max-width: 100%; height: auto;" />
-      </a>
-      <br/><br/>
-      <code>MySQL • Docker • Postman</code><br/>
-      <code>Git • GitHub • VS Code</code><br/>
-      <code>JetBrains • Linux • Windows</code>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/KevinTadashiii/PISNAKE">PISNAKE</a></b><br>
+      A snake game built with LÖVE and Lua: my first finished game loop, from window setup to collision and scoring.<br>
+      <sub><code>Lua</code> · <code>LÖVE</code></sub>
     </td>
   </tr>
 </table>
 
-</div>
+<sub>The other four — CPB Interpreter, Rusty Brainfuck Interpreter, Mono Calculator, and First Portfolio Site — are in the folder. <a href="https://kevinkanigara.my.id/#projects">Open the full folder →</a></sub>
 
-<br/>
+<!-- ── 03 · SKILLS ─────────────────────────────────────────────────────── -->
 
-<!-- PLAYER RPG STATS & METERS -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/section-03-skills-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/section-03-skills-light.svg">
+    <img src="./.github/assets/section-03-skills-light.svg" alt="03 — Skills: The tool rack" width="100%">
+  </picture>
+</p>
 
-### 📊 `[ CHARACTER ATTRIBUTES & METERS ]`
-
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
+<table>
   <tr>
-    <td><b>⚡ PROBLEM SOLVING</b></td>
-    <td><code>[██████████████████░░] 90/100</code></td>
-    <td><b>🔥 AGILITY & LEARNING</b></td>
-    <td><code>[████████████████████] MAX</code></td>
+    <td width="33%" valign="top">
+      <sub><b>LANGUAGES</b></sub><br><br>
+      <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code><br>
+      <code>TypeScript</code> <code>Python</code> <code>C</code><br>
+      <code>C++</code> <code>Rust</code> <code>Kotlin</code>
+    </td>
+    <td width="33%" valign="top">
+      <sub><b>FRAMEWORKS</b></sub><br><br>
+      <code>React</code> <code>Next.js</code> <code>Tailwind</code><br>
+      <code>Laravel</code> <code>Express.js</code><br>
+      <code>FastAPI</code> <code>Flutter</code>
+    </td>
+    <td width="33%" valign="top">
+      <sub><b>WORKBENCH</b></sub><br><br>
+      <code>MySQL</code> <code>Docker</code> <code>Postman</code><br>
+      <code>Git</code> <code>GitHub</code> <code>VS Code</code><br>
+      <code>JetBrains</code> <code>Linux</code> <code>Windows</code>
+    </td>
   </tr>
   <tr>
-    <td><b>🐧 LINUX & HOMELAB</b></td>
-    <td><code>[████████████████████] MAX</code></td>
-    <td><b>🐍 BUG SLITHERING</b></td>
-    <td><code>[████████████████████] MAX</code></td>
-  </tr>
-  <tr>
-    <td><b>☕ CAFFEINE CONSUMPTION</b></td>
-    <td><code>[░░░░░░░░░░░░░░░░░░░░] 0/100</code></td>
-    <td><b>🏫 SMKN 2 PRIDE</b></td>
-    <td><code>[████████████████████] ∞/100</code></td>
-  </tr>
-</table>
-
-</div>
-
-<br/>
-
-<!-- QUEST LOG & ACHIEVEMENTS -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-
-### 📜 `[ QUEST LOG // ACHIEVEMENTS ]`
-
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
-  <tr>
-    <th align="center" width="34%">🏅 ACHIEVEMENT</th>
-    <th align="center" width="46%">DESCRIPTION</th>
-    <th align="center" width="20%">STATUS</th>
-  </tr>
-  <tr>
-    <td align="center"><code>⚔️ FIRST BLOOD</code></td>
-    <td align="center">Squashed the first bug (6th grade, 2019)</td>
-    <td align="center"><code>✅ UNLOCKED</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>⚡ SPEEDRUNNER</code></td>
-    <td align="center">4+ years grinding code without quitting</td>
-    <td align="center"><code>✅ UNLOCKED</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>🐧 HOMELAB LORD</code></td>
-    <td align="center">Raised a home server rack & tamed it</td>
-    <td align="center"><code>✅ UNLOCKED</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>🕸️ FULL-STACK WIZARD</code></td>
-    <td align="center">Mastered the Web Dev main quest line</td>
-    <td align="center"><code>✅ UNLOCKED</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>🐍 SNAKE CHARMER</code></td>
-    <td align="center">Slithering through the leaderboard</td>
-    <td align="center"><code>🔄 IN PROGRESS</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>❓ ???</code></td>
-    <td align="center">A hidden achievement... keep playing</td>
-    <td align="center"><code>🔒 ???</code></td>
+    <td colspan="3" valign="top">
+      <sub><b>ON THE DESK NEXT</b> — <code>PostgreSQL</code> <code>Redis</code> <code>CI/CD</code> <code>System Design</code></sub>
+    </td>
   </tr>
 </table>
 
-</div>
+**Margin notes.** The desk keeps a small status file:
 
-<br/>
+```console
+kevin@desk:~$ cat ~/notes/current_state.txt
+problem_solving ....... 90/100
+learning_agility ...... MAX
+linux_and_homelab ..... MAX
+bug_slithering ........ MAX
+caffeine_level ........ 0/100
+smkn2_pride ........... ∞/100
+kevin@desk:~$ _
+```
 
-<!-- ARCADE HIGH SCORES & GITHUB STATS -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
+<!-- ── 04 · JOURNEY ────────────────────────────────────────────────────── -->
 
-### 🏆 `[ ARCADE HIGH SCORES & TELEMETRY ]`
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/section-04-journey-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/section-04-journey-light.svg">
+    <img src="./.github/assets/section-04-journey-light.svg" alt="04 — Journey: How I got here" width="100%">
+  </picture>
+</p>
 
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
+<table>
+  <tr>
+    <td width="16%" valign="top"><code>2019</code><br><sub>grade 6</sub></td>
+    <td valign="top"><b>The game that started it all</b> — wanted to build a game to impress everyone; discovered programming was the skill required. First bug squashed. The game never shipped, but the code stuck. <sub><code>first blood · unlocked</code></sub></td>
+  </tr>
+  <tr>
+    <td width="16%" valign="top"><sub>grade 7–8</sub></td>
+    <td valign="top"><b>Low-level foundations</b> — C and C++ became daily drivers. Pointers, memory management, compilation: the unglamorous layer that makes everything else possible. Learned to read errors instead of fearing them. <sub><code>unlocked</code></sub></td>
+  </tr>
+  <tr>
+    <td width="16%" valign="top"><sub>grade 9–10</sub></td>
+    <td valign="top"><b>Full-stack expansion</b> — JavaScript, TypeScript, Node.js, databases, Linux servers, Docker. The stack grew horizontally. First deployments, first real users, first production bugs at 2 AM. <sub><code>unlocked</code></sub></td>
+  </tr>
+  <tr>
+    <td width="16%" valign="top"><sub>grade 11</sub></td>
+    <td valign="top"><b>Software Engineering Student (RPL)</b> — SMKN 2 Bandung. Structured learning, team projects, and the shift from “it works” to “it's maintainable.” Also raised a home server rack and tamed it. <sub><code>homelab lord · unlocked</code></sub></td>
+  </tr>
+  <tr>
+    <td width="16%" valign="top"><sub>4+ years</sub></td>
+    <td valign="top"><b>Still shipping</b> — 4+ years grinding code without quitting. The web dev main quest line is cleared; the leaderboard is still being climbed. <sub><code>speedrunner · full-stack wizard · unlocked</code></sub></td>
+  </tr>
+  <tr>
+    <td width="16%" valign="top"><sub>next</sub></td>
+    <td valign="top"><b>Something new</b> — a hidden achievement, a snake to charm, and a few projects that don't exist yet. Keep playing. <sub><code>snake charmer · in progress</code> · <code>??? · locked</code></sub></td>
+  </tr>
+</table>
+
+<!-- ── 05 · NUMBERS ────────────────────────────────────────────────────── -->
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/section-05-numbers-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/section-05-numbers-light.svg">
+    <img src="./.github/assets/section-05-numbers-light.svg" alt="05 — Numbers: The receipts" width="100%">
+  </picture>
+</p>
+
+The desk keeps score. The cards refresh themselves; the graphs are rebuilt every night.
+
+<table align="center">
   <tr>
     <td align="center" valign="middle">
-      <a href="https://github.com/stats-organization/github-stats-extended">
-        <img src="https://github-stats-extended.vercel.app/api?username=KevinTadashiii&theme=chartreuse-dark" alt="Kevin's GitHub stats" style="max-width: 100%; height: auto;" />
-      </a>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=KevinTadashiii&amp;show_icons=true&amp;rank_icon=github&amp;include_all_commits=true&amp;custom_title=the+desk+log&amp;bg_color=211A15&amp;title_color=E07A54&amp;text_color=F5EBDD&amp;icon_color=D4A843&amp;border_color=3B2D24">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=KevinTadashiii&amp;show_icons=true&amp;rank_icon=github&amp;include_all_commits=true&amp;custom_title=the+desk+log&amp;bg_color=FFFDF8&amp;title_color=A3462A&amp;text_color=2C1810&amp;icon_color=C75B39&amp;border_color=E2D6C4">
+        <img src="https://github-stats-extended.vercel.app/api?username=KevinTadashiii&amp;show_icons=true&amp;rank_icon=github&amp;include_all_commits=true&amp;custom_title=the+desk+log&amp;bg_color=FFFDF8&amp;title_color=A3462A&amp;text_color=2C1810&amp;icon_color=C75B39&amp;border_color=E2D6C4" alt="Kevin's GitHub stats" width="420">
+      </picture>
     </td>
     <td align="center" valign="middle">
-      <img src="./.github/assets/streak.svg" alt="GitHub Streak" style="max-width: 100%; height: auto;" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/streak-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="./.github/assets/streak-light.svg">
+        <img src="./.github/assets/streak-light.svg" alt="Kevin's GitHub streak" width="420">
+      </picture>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=KevinTadashiii&langs_count=5&theme=chartreuse-dark" alt="Top Languages" style="max-width: 100%; height: auto;" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-profile-trophy.vercel.app/?username=KevinTadashiii&theme=chartreuse-dark&no-frame=true&margin-w=8" alt="GitHub Trophies" style="max-width: 100%; height: auto;" />
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<br/>
-
-<!-- ARCADE LEADERBOARD -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-
-### 🏁 `[ GLOBAL LEADERBOARD ]`
-
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;">
-  <tr>
-    <th align="center" width="15%">POS</th>
-    <th align="center" width="35%">PLAYER</th>
-    <th align="center" width="25%">SCORE</th>
-    <th align="center" width="25%">ZONE</th>
-  </tr>
-  <tr>
-    <td align="center"><code>01</code></td>
-    <td align="center"><b>KEVIN</b> <code>(YOU)</code></td>
-    <td align="center"><code>969696</code></td>
-    <td align="center"><code>BANDUNG</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>02</code></td>
-    <td align="center">TEJANO</td>
-    <td align="center"><code>087301</code></td>
-    <td align="center"><code>PALEMBANG</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>03</code></td>
-    <td align="center">RAZOOR</td>
-    <td align="center"><code>013370</code></td>
-    <td align="center"><code>JAKARTA</code></td>
-  </tr>
-  <tr>
-    <td align="center"><code>04</code></td>
-    <td align="center">GHOST</td>
-    <td align="center"><code>000000</code></td>
-    <td align="center"><code>???</code></td>
-  </tr>
-</table>
-
-</div>
-
-<br/>
-
-<!-- MULTIPLAYER CONTROLLER & CONNECT LOBBY -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-
-### 🕹️ `[ MULTIPLAYER LOBBY // INSERT COIN TO CO-OP ]`
-
-<table style="width: 100%; max-width: 980px; border-collapse: separate; border-spacing: 0;" border="0">
-  <tr>
-    <td align="center" colspan="3">
-      <code>[ CONTROLLER 1 ]</code><br/>
-      <kbd>▲ W</kbd><br/>
-      <kbd>◄ A</kbd> &nbsp; <kbd>▼ S</kbd> &nbsp; <kbd>► D</kbd><br/>
-      <small><i>CONTROL THE SNAKE & CHOOSE YOUR CONTACT PORTAL:</i></small>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="mailto:kevintadashiii@gmail.com">
-        <img src="https://img.shields.io/badge/EMAIL-060d09?style=for-the-badge&logo=gmail&logoColor=00ff66&labelColor=000000" alt="Email" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.instagram.com/bayabaytjn_/" target="_blank">
-        <img src="https://img.shields.io/badge/INSTAGRAM-060d09?style=for-the-badge&logo=instagram&logoColor=00ff66&labelColor=000000" alt="Instagram" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.reddit.com/user/kevintadashi/" target="_blank">
-        <img src="https://img.shields.io/badge/REDDIT-060d09?style=for-the-badge&logo=reddit&logoColor=00ff66&labelColor=000000" alt="Reddit" />
-      </a>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=KevinTadashiii&amp;langs_count=5&amp;layout=compact&amp;custom_title=tool+usage&amp;bg_color=211A15&amp;title_color=E07A54&amp;text_color=F5EBDD&amp;border_color=3B2D24">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=KevinTadashiii&amp;langs_count=5&amp;layout=compact&amp;custom_title=tool+usage&amp;bg_color=FFFDF8&amp;title_color=A3462A&amp;text_color=2C1810&amp;border_color=E2D6C4">
+        <img src="https://github-stats-extended.vercel.app/api/top-langs?username=KevinTadashiii&amp;langs_count=5&amp;layout=compact&amp;custom_title=tool+usage&amp;bg_color=FFFDF8&amp;title_color=A3462A&amp;text_color=2C1810&amp;border_color=E2D6C4" alt="Kevin's top languages" width="420">
+      </picture>
     </td>
   </tr>
 </table>
 
-<br/>
+**The machines.** Two contribution graphs, rebuilt every night by GitHub Actions.
 
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1000&color=00FF66&center=true&vCenter=true&width=550&height=50&lines=%F0%9F%AA%99+INSERT+COIN+TO+PLAY...;%F0%9F%AA%99+1+CREDIT+INSERTED;%F0%9F%91%BE+READY+FOR+NEW+ADVENTURES%21" alt="Insert Coin" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/github-contribution-grid-snake.svg" alt="Snake contribution graph" width="100%">
+  </picture>
+</p>
 
-<br/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg">
+    <img src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" width="100%">
+  </picture>
+</p>
 
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-  <img src="https://media.giphy.com/media/12cpBxBl4WqlHO/giphy.gif" width="240" alt="Michael Jackson Moonwalk" />
-  <br/><br/><br/>
-  <details>
-    <summary>🕹️ <code>[ CHEAT CODE DETECTED // TRY THE KONAMI CODE ]</code></summary>
-    <br/>
-    <code>↑ ↑ ↓ ↓ ← ← → → B A</code><br/>
-    <sub><i>+30 LIVES UNLOCKED 🕺 HEE HEE!</i></sub>
-  </details>
-</div>
+<sub><code>snake.exe</code> and <code>pacman.exe</code> — same grid, two ways to lose an evening.</sub>
 
-<!-- Footer Retro Wave -->
-<div align="center" style="width: 100%; max-width: 980px; overflow-x: hidden;">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050d09,50:0a1f14,100:00ff66&height=100&section=footer" width="100%" style="max-width: 980px; height: auto;" alt="Footer Wave" />
-</div>
+**After-hours leaderboard.** A few friends, a few scores, zero stakes.
 
-</div>
+| # | player | score | zone |
+|:---:|:---|:---:|:---|
+| `01` | **Kevin** `(you)` | `969696` | Bandung |
+| `02` | Tejano | `087301` | Palembang |
+| `03` | Razoor | `013370` | Jakarta |
+| `04` | Ghost | `000000` | ??? |
+
+<!-- ── 06 · CONTACT ────────────────────────────────────────────────────── -->
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/section-06-contact-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/section-06-contact-light.svg">
+    <img src="./.github/assets/section-06-contact-light.svg" alt="06 — Contact: Send a postcard" width="100%">
+  </picture>
+</p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>GitHub</b><br>
+      <a href="https://github.com/KevinTadashiii"><code>@KevinTadashiii</code></a><br>
+      <sub>the code, the commits, the works in progress.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Portfolio</b><br>
+      <a href="https://kevinkanigara.my.id"><code>kevinkanigara.my.id</code></a><br>
+      <sub>the desk, in full.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Email</b><br>
+      <a href="mailto:kevintadashiii@gmail.com"><code>kevintadashiii@gmail.com</code></a><br>
+      <sub>the fastest way to reach me.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Instagram</b><br>
+      <a href="https://www.instagram.com/bayabaytjn_/"><code>@bayabaytjn_</code></a><br>
+      <sub>off-screen, mostly.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Reddit</b><br>
+      <a href="https://www.reddit.com/user/kevintadashi/"><code>u/kevintadashi</code></a><br>
+      <sub>lurking with intent.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>Collaboration</b><br>
+      <a href="mailto:kevintadashiii@gmail.com?subject=Let%27s%20build%20something"><code>open to co-op</code></a><br>
+      <sub>bring a project.</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Based in Bandung, Indonesia — replies usually arrive faster than a letter.</sub>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/signature-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./.github/assets/signature-light.svg">
+    <img src="./.github/assets/signature-light.svg" alt="Kevin's signature" width="180">
+  </picture>
+</p>
+
+<p align="center">
+  <i>“All things work together for good to them that love God.”</i><br>
+  <sub>— Ed Warren, <i>In a Dark Place</i></sub>
+</p>
+
+<details>
+<summary>☕ <b>open the desk drawer</b> — cheat codes, old notes, and one moonwalk</summary>
+
+<br>
+
+**Konami code** — <kbd>↑</kbd> <kbd>↑</kbd> <kbd>↓</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>→</kbd> <kbd>B</kbd> <kbd>A</kbd>
+
+*+30 lives unlocked. Hee hee.*
+
+<sub><code>git commit -m "fixed it"</code> · water first, coffee second · remember to back up</sub>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/12cpBxBl4WqlHO/giphy.gif" width="200" alt="Michael Jackson moonwalk">
+</p>
+
+</details>
+
+<!-- ── COLOPHON ────────────────────────────────────────────────────────── -->
+
+<p align="center">
+  <sub>Muhammad Akbar Kevin Kanigara · Bandung, Indonesia · 2026</sub><br>
+  <sub>README styled after <a href="https://kevinkanigara.my.id">kevinkanigara.my.id</a> · set in Lora &amp; JetBrains Mono</sub><br>
+  <sub><a href="https://github.com/KevinTadashiii">GitHub</a> · <a href="mailto:kevintadashiii@gmail.com">Email</a> · <a href="#">back to the desk ↑</a></sub>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KevinTadashiii&amp;style=flat-square&amp;color=C75B39&amp;labelColor=2C1810&amp;label=VISITORS+AT+THE+DESK" alt="Visitors at the desk">
+</p>

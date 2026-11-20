@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" role="img">
+    <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3.6" fill="#A3462A">04  —  JOURNEY</text>
+    <text x="28" y="102" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" letter-spacing="-0.8" fill="#2C1810">How I got here</text>
+    
+    <g transform="translate(1090 26) rotate(3)" stroke="#A3462A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+      <circle cx="34" cy="38" r="30"/>
+      <path d="M34 21v18l12 8"/>
+      <path d="M34 5v4M34 67v4M1 38h4M63 38h4"/>
+      <path d="M34 31v8" stroke-width="3.4"/>
+    </g>
+    <path d="M30 132H1170" stroke="#E2D6C4" stroke-width="1.2"/>
+  </svg>

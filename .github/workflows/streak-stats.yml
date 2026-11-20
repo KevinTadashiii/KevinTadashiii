@@ -17,16 +17,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate streak stats
+      - name: Generate light streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=KevinTadashiii&theme=matrix&hide_border=false&border=00ff66&background=060d09&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&currStreakNum=00ff66&sideNums=00ff66&sideLabels=80df9e&dates=80df9e
-          path: .github/assets/streak.svg
+          options: >-
+            user=KevinTadashiii&theme=default&hide_border=false&border=E2D6C4&background=FFFDF8&stroke=A3462A&ring=C75B39&fire=C75B39&currStreakNum=2C1810&currStreakLabel=A3462A&sideNums=2C1810&sideLabels=6B5344&dates=9B8172&excludeDaysLabel=9B8172
+          path: .github/assets/streak-light.svg
+
+      - name: Generate dark streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: >-
+            user=KevinTadashiii&theme=default&hide_border=false&border=3B2D24&background=211A15&stroke=E07A54&ring=D4A843&fire=E07A54&currStreakNum=F5EBDD&currStreakLabel=E07A54&sideNums=F5EBDD&sideLabels=B9A695&dates=8E7564&excludeDaysLabel=8E7564
+          path: .github/assets/streak-dark.svg
 
       - name: Commit streak stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/assets/streak.svg
+          git add .github/assets/streak-light.svg .github/assets/streak-dark.svg
           git commit -m "Update streak stats" || exit 0
           git push
