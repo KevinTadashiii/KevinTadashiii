@@ -110,8 +110,7 @@ Ten entries live in the folder. Six are on the desk:
     <td width="33%" valign="top">
       <sub><b>FRAMEWORKS</b></sub><br><br>
       <code>React</code> <code>Next.js</code> <code>Tailwind</code><br>
-      <code>Laravel</code> <code>Express.js</code><br>
-      <code>FastAPI</code> <code>Flutter</code>
+      <code>Laravel</code> <code>Express.js</code> <code>Flutter</code>
     </td>
     <td width="33%" valign="top">
       <sub><b>WORKBENCH</b></sub><br><br>
@@ -168,10 +167,6 @@ kevin@desk:~$ _
     <td valign="top"><b>Software Engineering Student (RPL)</b> — SMKN 2 Bandung. Structured learning, team projects, and the shift from “it works” to “it's maintainable.” Also raised a home server rack and tamed it. <sub><code>homelab lord · unlocked</code></sub></td>
   </tr>
   <tr>
-    <td width="16%" valign="top"><sub>4+ years</sub></td>
-    <td valign="top"><b>Still shipping</b> — 4+ years grinding code without quitting. The web dev main quest line is cleared; the leaderboard is still being climbed. <sub><code>speedrunner · full-stack wizard · unlocked</code></sub></td>
-  </tr>
-  <tr>
     <td width="16%" valign="top"><sub>next</sub></td>
     <td valign="top"><b>Something new</b> — a hidden achievement, a snake to charm, and a few projects that don't exist yet. Keep playing. <sub><code>snake charmer · in progress</code> · <code>??? · locked</code></sub></td>
   </tr>
@@ -217,7 +212,7 @@ The desk keeps score. The cards refresh themselves; the graphs are rebuilt every
   </tr>
 </table>
 
-**The machines.** Two contribution graphs, rebuilt every night by GitHub Actions.
+**The machines.** One contribution graphs, rebuilt every night by GitHub Actions.
 
 <p align="center">
   <picture>
@@ -227,15 +222,7 @@ The desk keeps score. The cards refresh themselves; the graphs are rebuilt every
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg">
-    <img src="https://raw.githubusercontent.com/KevinTadashiii/KevinTadashiii/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" width="100%">
-  </picture>
-</p>
-
-<sub><code>snake.exe</code> and <code>pacman.exe</code> — same grid, two ways to lose an evening.</sub>
+<sub><code>snake.exe</code>
 
 **After-hours leaderboard.** A few friends, a few scores, zero stakes.
 
@@ -243,8 +230,8 @@ The desk keeps score. The cards refresh themselves; the graphs are rebuilt every
 |:---:|:---|:---:|:---|
 | `01` | **Kevin** `(you)` | `969696` | Bandung |
 | `02` | Tejano | `087301` | Palembang |
-| `03` | Razoor | `013370` | Jakarta |
-| `04` | Ghost | `000000` | ??? |
+| `03` | n0ir | `013370` | Jakarta |
+| `04` | Senketsu | `000000` | ??? |
 
 <!-- ── 06 · CONTACT ────────────────────────────────────────────────────── -->
 
@@ -316,8 +303,6 @@ The desk keeps score. The cards refresh themselves; the graphs are rebuilt every
 **Konami code** — <kbd>↑</kbd> <kbd>↑</kbd> <kbd>↓</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>→</kbd> <kbd>B</kbd> <kbd>A</kbd>
 
 *+30 lives unlocked. Hee hee.*
-
-<sub><code>git commit -m "fixed it"</code> · water first, coffee second · remember to back up</sub>
 
 <p align="center">
   <img src="https://media.giphy.com/media/12cpBxBl4WqlHO/giphy.gif" width="200" alt="Michael Jackson moonwalk">
